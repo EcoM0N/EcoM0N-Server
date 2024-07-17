@@ -11,5 +11,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class BookReqDTO {
 
+    private String email; // user email
 
+    private int eco_index; // 환경몬 번호
 }
