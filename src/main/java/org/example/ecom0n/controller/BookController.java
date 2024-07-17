@@ -17,9 +17,14 @@ public class BookController {
     private final BookService bookService;
     //CompletableFuture<ResponseEntity<BookEntity>>
 
-    @GetMapping("/{id}")
+    @GetMapping("/findAll")
     public List findBookAll() {
         List<BookResDTO> bookResdDTOList = bookService.findBookAll();
         return  bookResdDTOList;
+    }
+
+    @GetMapping("/{id}")
+    public void findById() {
+
     }
 }
