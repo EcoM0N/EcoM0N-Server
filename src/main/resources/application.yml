@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/dreambungeo
+    url: mariadb://localhost:3306/dreambungeo?user=admin&password=coffee1592
     username: root
     password: coffee1592
 

@@ -34,7 +34,7 @@ public class BookResDTO {
     public static BookResDTO toDTO(BookEntity bookentity) {
         BookResDTO bookResdDTO = new BookResDTO();
 
-        bookResdDTO.setEco_index(bookentity.getEco_index());
+//        bookResdDTO.setEco_index(bookentity.getEco_index());
         bookResdDTO.setEco_img(bookResdDTO.getEco_img());
         bookResdDTO.setEco_name(bookResdDTO.getEco_name());
         bookResdDTO.setEco_content(bookResdDTO.getEco_content());

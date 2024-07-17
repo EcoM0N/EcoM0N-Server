@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("")
     public void main() {
-
+        // 빠질 물, 남은물, 코인(24시간)
     }
 }

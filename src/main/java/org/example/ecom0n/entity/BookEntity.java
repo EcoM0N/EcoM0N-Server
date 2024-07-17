@@ -23,7 +23,7 @@ public class BookEntity {
     private String eco_img; // 환경몬 img (url)
 
     @Column
-    private String eco_name; // 환경몬 이름
+    private String name; // 환경몬 이름
 
     @Column
     private String eco_content; // 환경몬 설명
